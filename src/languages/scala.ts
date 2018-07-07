@@ -34,7 +34,7 @@ export const lang =  {
         stderrFile = null
     ) => ({
         executable: `/usr/bin/scala`,
-        parameters: ["scala", sourceFileName],
+        parameters: ["scala", `${binaryDirectory}/Main.scala`],
         time: time,
         memory: memory,
         process: 15,
